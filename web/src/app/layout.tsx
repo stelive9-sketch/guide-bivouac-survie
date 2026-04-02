@@ -18,6 +18,9 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Survie & Bivouac — Guides Experts Terrain",
   description: "Guides d'experts pour survivre, bivouaquer et explorer la nature en toute sécurité. Sélections de matériel testées et approuvées.",
+  verification: {
+    google: "bUYIRmi-hkVZzZKrNrTz1XeXOmut8Tgbis0CHCQ54Pc",
+  },
 };
 
 export default function RootLayout({

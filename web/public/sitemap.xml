@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://autoniche.vercel.app</loc>
+    <loc>https://autoniche-lovat.vercel.app</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://autoniche.vercel.app/articles/les-10-meilleurs-kits-de-survie-pour-debutants-guide-dachat-complet</loc>
+    <loc>https://autoniche-lovat.vercel.app/articles/comment-selectionner-le-meilleur-sac-de-couchage-pour-bivouac-en-conditions-froides</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://autoniche.vercel.app/articles/purificateur-deau-pour-randonnee-comment-choisir-le-meilleur-pour-une-eau-pure-en-pleine-nature</loc>
+    <loc>https://autoniche-lovat.vercel.app/articles/comparatif-des-tentes-ultra-legeres-quelle-tente-choisir-pour-la-randonnee-en-solo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://autoniche.vercel.app/articles/tente-ultra-legere-comparatif-des-modeles-les-plus-performants-pour-la-randonnee-et-le-bivouac</loc>
+    <loc>https://autoniche-lovat.vercel.app/articles/les-5-meilleurs-purificateurs-deau-pour-randonnee-quel-modele-privilegier</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://autoniche.vercel.app/articles/top-5-des-couteaux-de-survie-indispensables-pour-laventure-outdoor-en-toute-securite</loc>
+    <loc>https://autoniche-lovat.vercel.app/articles/les-7-vetements-techniques-indispensables-pour-le-bivouac-en-montagne-en-hiver</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://autoniche.vercel.app/articles/vetements-techniques-montagne-guide-dachat-pour-bien-sequiper-en-bivouac-hiver</loc>
+    <loc>https://autoniche-lovat.vercel.app/articles/top-10-des-meilleurs-kits-de-survie-pour-debutants-guide-dachat-complet</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
