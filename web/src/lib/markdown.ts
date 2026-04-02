@@ -45,9 +45,13 @@ export async function getArticleData(slug: string): Promise<ArticleData | null> 
   const matterResult = matter(fileContents);
 
   const processedContent = await remark()
-    .use(html)
+    .use(html, { sanitize: false })
     .process(matterResult.content);
-  const contentHtml = processedContent.toString();
+
+  // Ouvrir tous les liens externes dans un nouvel onglet
+  const contentHtml = processedContent
+    .toString()
+    .replace(/<a href="(https?:\/\/[^"]+)"/g, '<a href="$1" target="_blank" rel="noopener noreferrer"');
 
   return {
     slug,

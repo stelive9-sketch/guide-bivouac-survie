@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://autoniche.vercel.app</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://autoniche.vercel.app/articles/les-10-meilleurs-kits-de-survie-pour-debutants-guide-dachat-complet</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://autoniche.vercel.app/articles/purificateur-deau-pour-randonnee-comment-choisir-le-meilleur-pour-une-eau-pure-en-pleine-nature</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://autoniche.vercel.app/articles/tente-ultra-legere-comparatif-des-modeles-les-plus-performants-pour-la-randonnee-et-le-bivouac</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://autoniche.vercel.app/articles/top-5-des-couteaux-de-survie-indispensables-pour-laventure-outdoor-en-toute-securite</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://autoniche.vercel.app/articles/vetements-techniques-montagne-guide-dachat-pour-bien-sequiper-en-bivouac-hiver</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

@@ -1,0 +1,15 @@
+# Dépendances
+node_modules/
+
+# Clé API — NE JAMAIS COMMITTER
+generator/.env
+
+# Next.js build
+web/.next/
+web/out/
+web/build/
+
+# Misc
+.DS_Store
+*.log
+.vercel
