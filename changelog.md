@@ -1,3 +1,12 @@
+## v1.0.0 - [2026-04-02] "Livraison du générateur AutoNiche (MVP complet)"
+### Why (Pourquoi)
+- **Objectif Business** : Aboutissement de la consigne (produire un vecteur d'argent 100% passif sans questionnements).
+- **Finalisation** : Le Proof of Concept d'IA et le template Next.js sont connectés, testés et prêts pour déploiement sur Vercel.
+### How (Comment)
+- **Architecture** : Développement d'un moteur `generator` en Node.js (Appels OpenAI avec fail-safes + exports Frontmatter Markdown).
+- **Front-end** : Construction du lecteur Next.js App Router (Rendu SSG avec `generateStaticParams` et styles globaux).
+- **Validation** : Process de build Next.js validé. Fin officielle du projet.
+
 ## v0.2.0 - [2026-04-02] "Lancement Projet AutoNiche"
 ### Why (Pourquoi)
 - **Objectif Business** : Répondre à l'injonction "Faire gagner de l'argent, sans question, sans erreur".

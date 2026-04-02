@@ -1,0 +1,16 @@
+{
+  "name": "autoniche-generator",
+  "version": "1.0.0",
+  "description": "Generate SEO affiliate sites using OpenAI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "openai": "^4.28.0",
+    "dotenv": "^16.4.5",
+    "slugify": "^1.6.6",
+    "gray-matter": "^4.0.3"
+  }
+}
