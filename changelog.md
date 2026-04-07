@@ -1,3 +1,11 @@
+## v1.2.6 - [2026-04-07] "Suppression des alias clean du site bivouac"
+### Why (Pourquoi)
+- **Clarification visuelle** : Le suffixe `-clean` venait d'une migration technique temporaire et n'avait plus a etre visible dans Vercel.
+- **Cohesion de marque** : Il fallait ne laisser que les alias utiles autour de `guide-bivouac-survie`.
+### How (Comment)
+- **Vercel** : Suppression des alias `guide-bivouac-survie-clean*` encore rattaches au projet bivouac.
+- **Validation** : Confirmation que `guide-bivouac-survie.vercel.app` reste bien accessible en `200`.
+
 ## v1.2.5 - [2026-04-07] "Nettoyage final Vercel du site bivouac"
 ### Why (Pourquoi)
 - **Suppression du reliquat** : Le dashboard Vercel restait pollue par un ancien projet legacy et par une URL propre encore protegee.

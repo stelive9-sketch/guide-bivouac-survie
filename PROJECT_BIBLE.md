@@ -1,6 +1,6 @@
 # NEW PROJECT - PROJECT BIBLE
 
-> **VERSION :** v1.2.5 (2026-04-07)
+> **VERSION :** v1.2.6 (2026-04-07)
 > **STATUS :** Produit actif en production. Phase de portefeuille multi-sites lancee.
 > **STACK :** Next.js, React, Node.js, Markdown, OpenAI API, GA4, Vercel.
 > **DEPLOY :** Vercel.
@@ -82,6 +82,7 @@
 - Le repo GitHub du site ndeg1 a ete renomme en `guide-bivouac-survie`.
 - L'ancienne URL `autoniche-lovat.vercel.app` n'est plus exploitable publiquement et repond en `404`.
 - Le projet Vercel legacy qui portait encore de vieilles metadonnees de marque a ete supprime.
+- Les alias Vercel temporaires en `guide-bivouac-survie-clean*` ont ete supprimes.
 - Le generateur gere validation, migration, observabilite, rollback et dry-run.
 - Le front integre CRO, CTA, maillage business et instrumentation GA4.
 - Le tracking GA4 avec `G-35Y837QMT8` est actif en production.

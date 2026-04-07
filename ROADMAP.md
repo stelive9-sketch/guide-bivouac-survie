@@ -1,7 +1,7 @@
 # New Project - Roadmap
 
 > Last updated: 2026-04-07
-> **VERSION ACTUELLE :** v1.2.5
+> **VERSION ACTUELLE :** v1.2.6
 
 ---
 
@@ -58,6 +58,7 @@
 - [x] Renommer le repo GitHub du site bivouac pour supprimer `autoniche`.
 - [x] Migrer le site bivouac vers un projet Vercel propre sans heritage d'alias `autoniche`.
 - [x] Supprimer le projet Vercel legacy et rendre l'URL publique propre accessible en `200`.
+- [x] Supprimer les alias Vercel residuels en `-clean` du site bivouac.
 
 ## Phase 6 - Acquisition `A VENIR`
 - [ ] Soumettre les sites actifs a Google Search Console.
