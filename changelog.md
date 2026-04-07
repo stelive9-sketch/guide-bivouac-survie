@@ -1,3 +1,11 @@
+## v1.2.3 - [2026-04-07] "Renommage du repo GitHub du site bivouac"
+### Why (Pourquoi)
+- **Cohesion de marque** : Le nom `autoniche` restait encore visible publiquement dans le repo GitHub rattache au projet Vercel.
+- **Continuation operative** : Il fallait aligner le remote Git local avec le nouveau nom public du site.
+### How (Comment)
+- **GitHub** : Renommage du repo `stelive9-sketch/autoniche` en `stelive9-sketch/guide-bivouac-survie`.
+- **Git local** : Mise a jour du remote `origin` vers `https://github.com/stelive9-sketch/guide-bivouac-survie.git`.
+
 ## v1.2.2 - [2026-04-07] "Bascule de l'URL publique du site bivouac"
 ### Why (Pourquoi)
 - **Cohesion publique** : Le projet Vercel et l'URL publique du site ndeg1 devaient enfin sortir du nom `autoniche`.

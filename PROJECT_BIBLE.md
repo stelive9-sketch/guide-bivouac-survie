@@ -1,6 +1,6 @@
 # NEW PROJECT - PROJECT BIBLE
 
-> **VERSION :** v1.2.2 (2026-04-07)
+> **VERSION :** v1.2.3 (2026-04-07)
 > **STATUS :** Produit actif en production. Phase de portefeuille multi-sites lancee.
 > **STACK :** Next.js, React, Node.js, Markdown, OpenAI API, GA4, Vercel.
 > **DEPLOY :** Vercel.
@@ -79,6 +79,7 @@
 
 - Le site ndeg1 bivouac est maintenant expose publiquement sur `guide-bivouac-survie.vercel.app`.
 - Le projet Vercel sous-jacent du site ndeg1 a ete renomme en `guide-bivouac-survie`.
+- Le repo GitHub du site ndeg1 a ete renomme en `guide-bivouac-survie`.
 - La protection de deploiement a ete desactivee pour permettre aux nouveaux alias `.vercel.app` du projet renomme de repondre publiquement en `200`.
 - Les anciens alias publics contenant `autoniche` ont ete retires de Vercel pour ne plus exposer ce nom au public.
 - Le generateur gere validation, migration, observabilite, rollback et dry-run.
