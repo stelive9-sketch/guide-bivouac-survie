@@ -1,7 +1,7 @@
 # New Project - Roadmap
 
 > Last updated: 2026-04-07
-> **VERSION ACTUELLE :** v1.2.6
+> **VERSION ACTUELLE :** v1.2.7
 
 ---
 
@@ -59,6 +59,7 @@
 - [x] Migrer le site bivouac vers un projet Vercel propre sans heritage d'alias `autoniche`.
 - [x] Supprimer le projet Vercel legacy et rendre l'URL publique propre accessible en `200`.
 - [x] Supprimer les alias Vercel residuels en `-clean` du site bivouac.
+- [x] Recreer le projet final `guide-bivouac-survie` avec ce nom des la creation pour eliminer durablement le retour automatique de `-clean`.
 
 ## Phase 6 - Acquisition `A VENIR`
 - [ ] Soumettre les sites actifs a Google Search Console.

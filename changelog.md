@@ -1,3 +1,11 @@
+## v1.2.7 - [2026-04-07] "Recreation finale du projet Vercel bivouac"
+### Why (Pourquoi)
+- **Correction definitive** : Le suffixe `-clean` revenait automatiquement sur le projet Vercel malgre la suppression manuelle des alias.
+- **Nettoyage durable** : Il fallait recreer le projet final directement sous le nom `guide-bivouac-survie` au lieu de continuer a subir l'heritage d'une migration intermediaire.
+### How (Comment)
+- **Vercel** : Renommage temporaire du projet courant en buffer, creation d'un nouveau projet `guide-bivouac-survie`, rebranchement du repo GitHub, reconfiguration `web`/Next.js/env, redeploiement de production, puis suppression du projet buffer.
+- **Validation** : `guide-bivouac-survie.vercel.app` reste en `200` et `guide-bivouac-survie-clean.vercel.app` repond maintenant en `404`.
+
 ## v1.2.6 - [2026-04-07] "Suppression des alias clean du site bivouac"
 ### Why (Pourquoi)
 - **Clarification visuelle** : Le suffixe `-clean` venait d'une migration technique temporaire et n'avait plus a etre visible dans Vercel.
