@@ -1,42 +1,42 @@
-## v1.2.0-dev - [2026-04-03] "Implémentation de la logique de génération V2"
+## v1.2.1 - [2026-04-07] "Renommage Vercel du site bivouac"
 ### Why (Pourquoi)
-- **Qualité de contenu** : Se rapprocher du 100/100 en supprimant les tics d'écriture de l'IA et en autorisant les vraies marques pour une meilleure crédibilité utilisateur.
-- **Optimisation Affiliation** : Passage à des liens organiques insérés naturellement dans le texte pour améliorer le taux de clic et l'intégration visuelle.
+- **Image publique** : Le nom `autoniche` ne devait plus etre visible dans le projet cloud du site ndeg1.
+- **Clarification** : Il fallait separer le nom technique interne du portefeuille et l'identite publique du site bivouac.
 ### How (Comment)
-- **Prompt Engineering** : Refonte totale du prompt système pour Thomas Maillard (interdiction des tics IA, obligation de marques réelles).
-- **Logique de liens** : Remplacement des marqueurs `[[AMAZON:]]` par un parsing de liens Markdown personnalisés `(AMAZON:keywords)`.
+- **Vercel** : Renommage du projet `autoniche` en `guide-bivouac-survie`.
+- **Alias** : Tentative de bascule vers de nouveaux alias `.vercel.app` sans `autoniche`, mais constat que ces nouveaux alias repondent en `401` sous la protection Vercel alors que `autoniche-lovat.vercel.app` reste la seule URL publique exploitable.
+- **Documentation** : Synchronisation de la roadmap et du bible projet avec ce nouvel etat hybride.
 
-## v1.1.0 - [2026-04-02] "Scale de contenu (30 articles) et sitemap"
+## v1.2.0 - [2026-04-06] "Selection de la niche MaisonSansCorvee pour le site ndeg2"
 ### Why (Pourquoi)
-- **Objectif SEO** : Augmenter le volume de contenu avec des mots-clés de longue traîne pour maximiser les chances de positionnement sur Google.
+- **Diversification** : Le projet entre dans une logique de portefeuille multi-sites pour multiplier les surfaces de capture SEO et les opportunites de clics Amazon.
+- **Execution** : Il fallait figer une niche concrete avant de preparer un deuxieme site sans perturber la production actuelle.
 ### How (Comment)
-- **Génération** : Passage de `articleCount` à 30 dans la configuration. Génération asynchrone réussie via OpenAI.
-- **Déploiement** : Mise à jour du `sitemap.xml` et push de la nouvelle base de contenu sur Git pour redéploiement Vercel.
+- **Decision produit** : Validation de `MaisonSansCorvee` comme niche du site ndeg2, orientee equipements qui reduisent la corvee menagere.
+- **Documentation** : Ajout d'un blueprint de niche dans `docs/niches/maison-sans-corvee.md`.
+- **Configuration** : Ajout d'un fichier `generator/configs/maisonsanscorvee.example.json` pour preparer le futur site sans ecraser `generator/config.json`.
 
-## v1.0.0 - [2026-04-02] "Livraison du générateur AutoNiche (MVP complet)"
+## v1.1.0 - [2026-04-02] "Scale de contenu, CRO et instrumentation du site ndeg1"
 ### Why (Pourquoi)
-- **Objectif Business** : Aboutissement de la consigne (produire un vecteur d'argent 100% passif sans questionnements).
-- **Finalisation** : Le Proof of Concept d'IA et le template Next.js sont connectés, testés et prêts pour déploiement sur Vercel.
+- **Croissance** : Il fallait transformer le MVP en site d'affiliation plus credible, plus cliquable et mesurable.
+- **Operations** : Le generateur devait devenir fiable a grande echelle et exploitable en production.
 ### How (Comment)
-- **Architecture** : Développement d'un moteur `generator` en Node.js (Appels OpenAI avec fail-safes + exports Frontmatter Markdown).
-- **Front-end** : Construction du lecteur Next.js App Router (Rendu SSG avec `generateStaticParams` et styles globaux).
-- **Validation** : Process de build Next.js validé. Fin officielle du projet.
+- **Generation** : Passage a 29 articles valides avec validation anti-IA, migration progressive, rollback et observabilite.
+- **Front** : Ajout de blocs decisionnels, CTA, maillage business, home conversion-first et dashboard `/reporting`.
+- **Analytics** : Integration de GA4, documentation d'exploitation, smoke tests et verification en production.
 
-## v0.2.0 - [2026-04-02] "Lancement Projet AutoNiche"
+## v1.0.0 - [2026-04-02] "Livraison du generateur AutoNiche"
 ### Why (Pourquoi)
-- **Objectif Business** : Répondre à l'injonction "Faire gagner de l'argent, sans question, sans erreur".
-- **Stratégie** : Le SEO programmatique combiné à l'affiliation est le vecteur le plus performant et automatisable pour générer un cash-flow passif immédiat pour un développeur solo.
+- **Objectif Business** : Produire un premier actif SEO monnayable via l'affiliation Amazon.
+- **Finalisation** : Il fallait disposer d'un pipeline complet generation -> rendu -> deploiement.
 ### How (Comment)
-- **Cadrage** : Définition de la `PROJECT_BIBLE.md` avec l'idée commerciale (AutoNiche - Générateur statique).
-- **Architecture & Stack** : Choix assumé de Next.js (SSG) et OpenAI pour allier performance absolue et coûts d'infrastructure nuls.
-- **Roadmap** : Phase 0 validée. Transition immédiate vers la Phase 1 de conception dans `ROADMAP.md`.
+- **Architecture** : Mise en place d'un generateur Node.js et d'un front Next.js SSG.
+- **Deploiement** : Publication du site sur Vercel avec corpus statique local.
 
-## v0.1.0 - [2026-04-02] "Reset documentaire pour nouveau projet"
+## v0.1.0 - [2026-04-02] "Reset documentaire et cadrage"
 ### Why (Pourquoi)
-- **Rupture de contexte** : Le nouveau projet n'a aucun lien avec le precedent et les documents de reference devaient etre purges de tout heritage metier, stack et priorites anterieures.
-- **Base saine** : Il fallait recreer un point de depart neutre avant de definir la nouvelle vision produit, l'architecture et la roadmap.
+- **Rupture de contexte** : Il fallait repartir d'une base propre pour le nouveau projet.
+- **Pilotage** : Les documents de reference devaient etre reposes avant implementation.
 ### How (Comment)
-- **Rules** : Reinitialisation de `.agents/rules/rules.md` avec des regles generiques de pilotage projet.
-- **Project Bible** : Remplacement de `PROJECT_BIBLE.md` par un squelette vierge oriente cadrage.
-- **Roadmap** : Remplacement de `ROADMAP.md` par une feuille de route vide structuree par phases.
-- **Historique** : Nettoyage du changelog pour repartir d'une seule entree fondatrice.
+- **Documentation** : Reinitialisation des regles, de la bible projet, de la roadmap et du changelog.
+- **Strategie** : Choix d'un modele SEO programmatique oriente affiliation.
