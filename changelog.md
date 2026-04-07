@@ -1,3 +1,11 @@
+## v1.2.8 - [2026-04-07] "Synchronisation du repo avec la version locale reelle du site bivouac"
+### Why (Pourquoi)
+- **Eviter le retour arriere** : La home et les pages article ameliorees existaient bien en local, mais n'etaient pas encore poussees sur `main`.
+- **Coherence deploy** : Un futur deploiement Git aurait remis l'ancien front bivouac si le repo n'etait pas aligne avec l'etat de production voulu.
+### How (Comment)
+- **Repo** : Preparation d'un commit global coherent incluant le front CRO recent, les composants de tracking, les scripts, le corpus d'articles et les evolutions du generateur deja valides localement.
+- **Production** : Redeploiement de l'etat local courant sur Vercel avant synchronisation Git, puis alignement du depot pour que les futurs deploiements Git servent la meme version.
+
 ## v1.2.7 - [2026-04-07] "Recreation finale du projet Vercel bivouac"
 ### Why (Pourquoi)
 - **Correction definitive** : Le suffixe `-clean` revenait automatiquement sur le projet Vercel malgre la suppression manuelle des alias.

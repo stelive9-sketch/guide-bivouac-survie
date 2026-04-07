@@ -5,7 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "validate:existing": "node index.js --validate-existing",
+    "migrate:existing": "node index.js --migrate-existing",
+    "migrate:progressive": "node index.js --migrate-progressive",
+    "ops:status": "node index.js --ops-status",
+    "list:backups": "node index.js --list-backups",
+    "restore:latest": "node index.js --restore-latest-backup",
+    "restore:backup": "node index.js"
   },
   "dependencies": {
     "openai": "^4.28.0",

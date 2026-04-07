@@ -1,6 +1,6 @@
 # NEW PROJECT - PROJECT BIBLE
 
-> **VERSION :** v1.2.7 (2026-04-07)
+> **VERSION :** v1.2.8 (2026-04-07)
 > **STATUS :** Produit actif en production. Phase de portefeuille multi-sites lancee.
 > **STACK :** Next.js, React, Node.js, Markdown, OpenAI API, GA4, Vercel.
 > **DEPLOY :** Vercel.
@@ -86,6 +86,7 @@
 - Le generateur gere validation, migration, observabilite, rollback et dry-run.
 - Le front integre CRO, CTA, maillage business et instrumentation GA4.
 - Le tracking GA4 avec `G-35Y837QMT8` est actif en production.
+- Le repo `main` est de nouveau aligne avec la version locale effectivement deployee du site bivouac.
 - Le projet entre dans une logique de portefeuille multi-sites.
 
 ---

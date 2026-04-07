@@ -3,6 +3,9 @@ node_modules/
 
 # Clé API — NE JAMAIS COMMITTER
 generator/.env
+generator/reports/
+web/content/articles.__backup-*/
+web/content/articles.__staging/
 
 # Next.js build
 web/.next/
@@ -12,4 +15,6 @@ web/build/
 # Misc
 .DS_Store
 *.log
+.vercel
+
 .vercel
