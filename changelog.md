@@ -1,3 +1,11 @@
+## v1.2.9 - [2026-04-07] "Suppression des alias techniques du site bivouac"
+### Why (Pourquoi)
+- **Nettoyage public** : Les alias techniques Vercel restaient visibles alors qu'ils n'apportaient rien au site public.
+- **Surface de marque** : Il fallait ne laisser que l'URL principale `guide-bivouac-survie.vercel.app`.
+### How (Comment)
+- **Vercel** : Suppression des alias `guide-bivouac-survie-autoniches-projects.vercel.app` et `guide-bivouac-survie-git-main-autoniches-projects.vercel.app`.
+- **Validation** : Confirmation que les deux alias techniques repondent en `404` et que l'URL principale reste en `200`.
+
 ## v1.2.8 - [2026-04-07] "Synchronisation du repo avec la version locale reelle du site bivouac"
 ### Why (Pourquoi)
 - **Eviter le retour arriere** : La home et les pages article ameliorees existaient bien en local, mais n'etaient pas encore poussees sur `main`.
