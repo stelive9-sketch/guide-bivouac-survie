@@ -1,3 +1,11 @@
+## v1.3.1 - [2026-04-07] "Preparation Search Console des sites actifs"
+### Why (Pourquoi)
+- **Acquisition** : La phase d'acquisition devait demarrer sur des bases techniques verifiees avant toute soumission Search Console.
+- **Execution** : Il fallait un paquet de soumission clair pour les deux sites actifs afin de reduire la friction manuelle.
+### How (Comment)
+- **Verification publique** : Controle des `robots.txt`, `sitemap.xml`, canonicals et du tag GA4 sur `guide-bivouac-survie.vercel.app` et `maison-sans-corvee.vercel.app`.
+- **Documentation** : Ajout d'un paquet de soumission Search Console dans `docs/search-console-submission-pack.md` et passage de la phase Acquisition en `EN COURS`.
+
 ## v1.3.0 - [2026-04-07] "Nettoyage des fallback URLs et synchronisation portefeuille"
 ### Why (Pourquoi)
 - **Cohesion technique** : Le generateur conservait encore des fallback URLs en `autoniche.vercel.app` alors que la marque publique du site bivouac a change.

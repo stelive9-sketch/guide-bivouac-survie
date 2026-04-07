@@ -1,7 +1,7 @@
 # New Project - Roadmap
 
 > Last updated: 2026-04-07
-> **VERSION ACTUELLE :** v1.3.0
+> **VERSION ACTUELLE :** v1.3.1
 
 ---
 
@@ -63,7 +63,8 @@
 - [x] Synchroniser `main` avec la vraie version locale amelioree du site bivouac pour eviter tout retour arriere au prochain deploiement Git.
 - [x] Supprimer les alias techniques `guide-bivouac-survie-autoniches-projects` et `guide-bivouac-survie-git-main-autoniches-projects`.
 
-## Phase 6 - Acquisition `A VENIR`
+## Phase 6 - Acquisition `EN COURS`
+- [x] Verifier publiquement les prerequis SEO des sites actifs (`robots.txt`, `sitemap.xml`, canonicals, tag GA4).
 - [ ] Soumettre les sites actifs a Google Search Console.
 - [ ] Soumettre les sitemaps des sites actifs.
 - [ ] Suivre les premiers clics et les pages qui emergent.
